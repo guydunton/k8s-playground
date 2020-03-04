@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: backend-server
+  namespace: ## Add namespace
+  annotations:
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+  labels:
+    app: backend-server
+spec:
+  rules:
+    - host: ## add a url e.g. myserver.economisttesters.co.uk.
+      http:
+        paths:
+          - backend:
+              serviceName: backend-server
+              servicePort: 80
+            path: /*
