@@ -1,15 +1,19 @@
 # EKS Playtime
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" alt="kubernetes" width="200"/>
+
 ## What
 
-This project contains 2 projects:
+This repo contains some exercises to do which provide an introduction to Kubernetes. It assumes very little knowledge of Kubernetes but does require knowledge of Docker.
+
+There are 2 projects:
 
 - A backend service written in Rust which provides random greetings & goodbyes.
 - A frontend service, written in Elm which can call the backend service.
 
 ## Pre-requisites
 
-- AWS cli
+- AWS CLI
 - docker installed
 - docker-compose installed
 - kubectl installed
