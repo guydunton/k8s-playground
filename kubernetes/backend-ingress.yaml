@@ -10,7 +10,7 @@ metadata:
     app: backend-server
 spec:
   rules:
-    - host: ## add a url e.g. myserver.economisttesters.co.uk.
+    - host: ## add a url e.g. myserver.economisttesters.co.uk
       http:
         paths:
           - backend:

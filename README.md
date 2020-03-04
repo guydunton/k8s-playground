@@ -9,6 +9,7 @@ This project contains 2 projects:
 
 ## Pre-requisites
 
+- AWS cli
 - docker installed
 - docker-compose installed
 - kubectl installed
@@ -28,4 +29,3 @@ docker-compose up --build
 2. [Login to Kubernetes](tutorials/2._Login_to_Kubernetes.md)
 3. [Deploy the backend to Kubernetes](tutorials/3._Deploy_the_backend_to_Kubernetes.md)
 4. [Deploy the frontend to kubernetes](tutorials/4._Deploy_the_frontend_to_kubernetes.md)
-5. [Expose the frontend to the outside world](tutorials/5._Expose_the_frontend_to_the_outside_world.md)
